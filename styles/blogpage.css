@@ -1,0 +1,126 @@
+body{
+    margin:0;
+    background-color: #ecfcff;
+}
+/* nav bar */
+.topbar{
+    display: inline;
+    text-decoration: none;
+    margin: 0;
+
+
+    
+}
+.navbar{
+    background-color:#27aa80;
+    text-decoration: none;
+    padding: 8px;
+ 
+
+}
+.menu_items{
+    margin:0 8px;
+    color: white;
+    text-decoration: none;
+
+}
+.logo{
+    font-size: 25px;
+    margin-right: 25px;
+    color: white;
+    text-decoration: none;
+}
+/* main image */
+.mainimage{
+    float: right;
+    width: 400px;
+    height:300px;
+    border-radius: 25px;
+    
+}
+
+/* pastblog */
+.postimg
+{
+    border: 2px solid gray;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+
+}
+.previouspost{
+    border: 1px solid grey;
+}
+
+
+/* main content */
+.textcontent{
+    line-height: 1.5;
+    font-family: 'EB Garamond', serif;
+
+}
+.container1{
+    margin: 20px auto;
+    padding: 20px;
+    display: inline-block;
+
+}
+.blogcontent{
+
+    padding: 30px;
+}
+/* reach me section */
+.reachme
+{
+    background-color:#27aa80;
+    color: white;
+}
+.contentbox3{
+    padding: 30px;
+    background-color:#27aa80;
+
+}
+
+.buttonimg{
+    border: 1px solid none;
+    border-radius: 5px;
+width: 20px;
+}
+
+/* about me section */
+.Aboutme{
+    height: 100%;
+    width: 100%;
+    display:inline-block;
+    background-color:#27aa80;
+    padding: 10px;;
+
+}
+.myimg{
+    width: 8%;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+
+
+}
+
+
+.aboutmetext{
+    width: 60%;
+    color: white;
+    background-color:#27aa80; 
+    margin-top: 70px;  
+margin-left: 150px;
+}
+h1,h2,h3,h4{
+    font-family: 'Rokkitt', serif;
+  
+  }
+  p
+  {
+      font-size: 20px;
+      font-family: 'Special Elite', cursive;
+
+   }

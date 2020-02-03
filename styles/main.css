@@ -1,0 +1,79 @@
+body{
+    background-color:#ecfcff;
+    margin: 0;
+
+}
+
+/* nav bar  */
+.topbar{
+    display: inline;
+    text-decoration: none;
+    margin: 0;
+
+
+    
+}
+.navbar{
+    background-color:#27aa80;
+    text-decoration: none;
+    padding: 8px;
+
+ 
+
+}
+.menu_items{
+    margin:0 8px;
+    color: white;
+    text-decoration: none;
+
+}
+.logo{
+    font-size: 25px;
+    margin-right: 25px;
+    color: white;
+    text-decoration: none;
+}
+/*  */
+
+h1,h2,h3,h4{
+  font-family: 'Rokkitt', serif;
+
+}
+
+  p
+   {
+       font-size: 20px;
+       font-family: 'Special Elite', cursive;
+
+    }
+ 
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+ 
+  .box4{
+    background-color:#27aa80;
+
+  }
+  #testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+    background-color: #2f2f2f; 
+
+
+  }
+  .testimonl-image{
+      width: 8%;
+      border-radius: 100%;
+      margin: 10px;
+  }
+  .testimonial-tex{
+    font-family: 'Pacifico', cursive;
+    line-height: 1.2px;
+  }
+.container-fluid {
+    padding: 3% 15%;
+  }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>contactUs</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="\styles\contactUs.css">
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="topbar">
+            
+          <a class="logo" href="\index.html"><strong>PlanetFunk</strong></a>
+          <a class="menu_items" href="\index.html">home</a>
+
+          <a class="menu_items" href="\blogpage.html">Blogs</a>
+
+          <a class="menu_items" href="\survey.html">Survay</a>
+
+          <a class="menu_items" href="\contactUs.html">Contact Us</a>
+
+        </div>
+    </nav>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>feel free to contact us to know about us and tjoin us:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img class="mapimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRtdhr2jCRG__a7h3cVcbvwmr9dN03Gr7V6HuXtfGvp0buZtoWw" style="width:70%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">bengaluru</option>
+          <option value="canada">New delhi</option>
+          <option value="usa">chennai</option>
+          <option value="usa">kolkata</option>
+
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+    
+  </body>
+</html>

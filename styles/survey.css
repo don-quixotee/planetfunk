@@ -1,0 +1,101 @@
+body{
+    background-color:#ecfcff;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* nav bar  */
+.topbar{
+    display: inline;
+    text-decoration: none;
+    margin: 0;
+
+
+    
+}
+.navbar{
+    background-color:#27aa80;
+    text-decoration: none;
+    padding: 8px;
+ 
+
+}
+.menu_items{
+    margin:0 8px;
+    color: white;
+    text-decoration: none;
+
+}
+.logo{
+    font-size: 25px;
+    margin-right: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+
+  
+ 
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  
+  .container
+    {
+        border-radius: 5px;
+        padding: 50px;
+        padding-left: 60px;
+        width:600px;
+
+        border: 1px solid grey;
+       
+        color: white;
+    
+    background-color:#27aa80;
+    margin-top: 30px;
+    margin-bottom: 30px;
+      }
+      
+  
+  /* Style the container/contact section */
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px)
+   {
+    .column, input[type=submit] 
+    {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  h1,h2,h3,h4{
+    font-family: 'Rokkitt', serif;
+  
+  }
+  p
+  {
+      font-size: 20px;
+      font-family: 'Special Elite', cursive;
+
+   }
